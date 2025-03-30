@@ -1,0 +1,80 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .container {
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  h1 {
+    color: #001f3f; /* สีกรมท่าเข้ม */
+    font-weight: bold;
+  }
+
+  .form-label {
+    font-weight: 500;
+    color: #333;
+  }
+
+  .btn-primary, .btn-success, .btn-danger, .btn-info {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #001f3f; /* สีกรมท่า */
+    border-color: #f0f4f8;
+  }
+
+  .btn-primary:hover {
+    background-color: #003366; /* สีกรมท่าที่เข้มกว่า */
+    border-color: #003366;
+  }
+
+  .btn-success:hover {
+    background-color: #004d00; /* สีเขียวเข้ม */
+    border-color: #004d00;
+  }
+
+  .btn-danger:hover {
+    background-color: #c82333; /* สีแดงเข้ม */
+    border-color: #c82333;
+  }
+
+  .btn-info:hover {
+    background-color: #f0f4f8; /* สีน้ำเงินอ่อน */
+    border-color: #f0f4f8;
+  }
+
+  .form-control {
+    border-radius: 25px;
+    border: 2px solid #ced4da;
+  }
+
+  .form-control:focus {
+    border-color: #f0f4f8; /* สีกรมท่าเมื่อโฟกัส */
+    box-shadow: 0 0 0 0.2rem rgba(0,31,63,.25);
+  }
+
+  #status, #output {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+  }
+
+  .student-info {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+  }
+
+  strong {
+    color: #001f3f; /* สีกรมท่าสำหรับข้อความสำคัญ */
+  }
